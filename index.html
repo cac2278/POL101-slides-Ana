@@ -3911,268 +3911,32 @@ a.vantage-source-v10:focus{
 }
 
 
-/* POL 101 V56 — Slides 7–9 F11/full-screen vertical fit, preserve legibility */
-.late-slide-7,
-.late-slide-8,
-.late-slide-9{
-  padding-top:16px!important;
-  padding-bottom:12px!important;
+/* POL 101 V58 — safe presentation mode: every slide can scroll vertically if needed */
+html, body{
+  height:100%!important;
+  overflow:hidden!important;
 }
-.late-slide-7 h1,
-.late-slide-8 h1,
-.late-slide-9 h1{
-  margin-top:3px!important;
-  margin-bottom:7px!important;
-  line-height:1.02!important;
-}
-
-/* Slide 7: tighten unused vertical spacing around STOP / INVESTIGATE */
-.late-slide-7 .sift-check-v52{
-  margin-top:6px!important;
-  padding:7px 10px!important;
-}
-.late-slide-7 .sift-callout-v52 p{
-  margin-bottom:5px!important;
-}
-.late-slide-7 .live-answer-v52{
-  min-height:54px!important;
-  height:54px!important;
-}
-
-/* Slide 8: compact the two teaching panels before shrinking type */
-.late-slide-8 .ft-beginner-v9{
-  gap:9px!important;
-  margin-top:2px!important;
-}
-.late-slide-8 .beginner-path-v9{
-  padding-top:10px!important;
-  padding-bottom:9px!important;
-}
-.late-slide-8 .beginner-path-v9 p{
-  margin-top:5px!important;
-  margin-bottom:5px!important;
-  line-height:1.12!important;
-}
-.late-slide-8 .beginner-path-v9 em{
-  margin-top:3px!important;
-  line-height:1.08!important;
-}
-.late-slide-8 .tiny-network-v9,
-.late-slide-8 .trace-examples-v9{
-  margin-top:5px!important;
-  margin-bottom:5px!important;
-}
-.late-slide-8 .gov-domain-trace-v38{
-  margin-top:5px!important;
-  padding:5px 8px!important;
-  line-height:1.12!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53{
-  margin-top:5px!important;
-  padding:5px 8px!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53 .sift-callout-v52 p{
-  font-size:16px!important;
-  line-height:1.08!important;
-  margin-bottom:4px!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53 .live-answer-v52{
-  min-height:46px!important;
-  height:46px!important;
-}
-
-/* Slide 9: preserve content but reclaim bottom room */
-.late-slide-9 .sift-check-v52{
-  margin-top:6px!important;
-  padding:7px 10px!important;
-}
-.late-slide-9 .sift-callout-v52 p{
-  margin-bottom:5px!important;
-}
-.late-slide-9 .live-answer-v52{
-  min-height:52px!important;
-  height:52px!important;
-}
-
-
-/* POL 101 V57 — emergency guaranteed-fit treatment for Slides 7–9 */
-.late-slide-7,
-.late-slide-8,
-.late-slide-9{
+.slide{
   box-sizing:border-box!important;
   height:100vh!important;
   max-height:100vh!important;
-  overflow:hidden!important;
-  padding:10px 24px 8px!important;
+  overflow-x:hidden!important;
+  overflow-y:auto!important;
+  overscroll-behavior:contain!important;
+  scrollbar-gutter:stable!important;
+  padding-bottom:28px!important;
 }
-.late-slide-7 .eyebrow,
-.late-slide-8 .eyebrow,
-.late-slide-9 .eyebrow{
-  margin:0 0 2px!important;
-  min-height:0!important;
-  line-height:1!important;
+.slide::-webkit-scrollbar{
+  width:12px;
 }
-.late-slide-7 h1,
-.late-slide-8 h1,
-.late-slide-9 h1{
-  font-size:34px!important;
-  line-height:1!important;
-  margin:2px 0 5px!important;
+.slide::-webkit-scrollbar-thumb{
+  background:rgba(78,42,120,.38);
+  border-radius:10px;
+  border:3px solid transparent;
+  background-clip:padding-box;
 }
-
-/* Slide 7 */
-.late-slide-7 .si-beginner-v9,
-.late-slide-7 .stop-investigate-v9,
-.late-slide-7 .sift-two-v9{
-  gap:6px!important;
-  margin:0!important;
-}
-.late-slide-7 .beginner-path-v9,
-.late-slide-7 .sift-step-v9,
-.late-slide-7 .stop-v9,
-.late-slide-7 .investigate-v9{
-  padding:8px 10px!important;
-  margin:0!important;
-}
-.late-slide-7 p,
-.late-slide-7 li,
-.late-slide-7 span,
-.late-slide-7 em{
-  line-height:1.08!important;
-}
-.late-slide-7 .sift-check-v52{
-  margin-top:4px!important;
-  padding:5px 8px!important;
-}
-.late-slide-7 .sift-callout-v52 span{font-size:12px!important}
-.late-slide-7 .sift-callout-v52 p{
-  font-size:16px!important;
-  line-height:1.05!important;
-  margin:0 0 3px!important;
-}
-.late-slide-7 .live-answer-v52{
-  min-height:38px!important;
-  height:38px!important;
-  padding:4px 7px!important;
-  font-size:15px!important;
-}
-
-/* Slide 8 — densest slide */
-.late-slide-8 .ft-beginner-v9{
-  gap:6px!important;
-  margin:0!important;
-}
-.late-slide-8 .beginner-path-v9{
-  padding:6px 8px!important;
-  margin:0!important;
-}
-.late-slide-8 .letter-v9{
-  font-size:27px!important;
-  line-height:1!important;
-  margin-bottom:1px!important;
-}
-.late-slide-8 .beginner-path-v9 small{
-  font-size:13px!important;
-  line-height:1!important;
-}
-.late-slide-8 .beginner-path-v9 strong{
-  font-size:18px!important;
-  line-height:1.03!important;
-  margin:2px 0!important;
-}
-.late-slide-8 .beginner-path-v9 p{
-  font-size:15px!important;
-  line-height:1.06!important;
-  margin:3px 0!important;
-}
-.late-slide-8 .beginner-path-v9 em{
-  font-size:13px!important;
-  line-height:1.04!important;
-  margin:2px 0!important;
-}
-.late-slide-8 .tiny-network-v9{
-  margin:3px 0!important;
-  min-height:0!important;
-}
-.late-slide-8 .tiny-network-v9 span,
-.late-slide-8 .tiny-network-v9 i{
-  font-size:13px!important;
-  padding-top:2px!important;
-  padding-bottom:2px!important;
-}
-.late-slide-8 .trace-examples-v9{
-  margin:3px 0!important;
-  gap:2px!important;
-}
-.late-slide-8 .trace-examples-v9 span{
-  font-size:13px!important;
-  line-height:1.03!important;
-  padding:2px 4px!important;
-}
-.late-slide-8 .gov-domain-trace-v38{
-  font-size:13px!important;
-  line-height:1.05!important;
-  margin:3px 0!important;
-  padding:3px 5px!important;
-}
-.late-slide-8 .gov-domain-trace-v38 code{font-size:13px!important}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53{
-  margin-top:3px!important;
-  padding:4px 6px!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53 .sift-callout-v52 span{
-  font-size:11px!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53 .sift-callout-v52 p{
-  font-size:14px!important;
-  line-height:1.03!important;
-  margin:0 0 3px!important;
-}
-.late-slide-8 .outward-v9 .find-coverage-callout-v53 .live-answer-v52{
-  min-height:34px!important;
-  height:34px!important;
-  padding:3px 6px!important;
-  font-size:14px!important;
-}
-
-/* Slide 9 */
-.late-slide-9 .sift-research-v9,
-.late-slide-9 .research-flow-v9,
-.late-slide-9 .sift-use-v9{
-  gap:5px!important;
-  margin:0!important;
-}
-.late-slide-9 p,
-.late-slide-9 li,
-.late-slide-9 span,
-.late-slide-9 em{
-  line-height:1.07!important;
-}
-.late-slide-9 .sift-check-v52{
-  margin-top:4px!important;
-  padding:5px 8px!important;
-}
-.late-slide-9 .sift-callout-v52 span{font-size:12px!important}
-.late-slide-9 .sift-callout-v52 p{
-  font-size:16px!important;
-  line-height:1.05!important;
-  margin:0 0 3px!important;
-}
-.late-slide-9 .live-answer-v52{
-  min-height:38px!important;
-  height:38px!important;
-  padding:4px 7px!important;
-  font-size:15px!important;
-}
-
-/* Browsers with shorter presentation viewports get one more compact pass. */
-@media (max-height:760px){
-  .late-slide-7,.late-slide-8,.late-slide-9{padding-top:6px!important;padding-bottom:5px!important}
-  .late-slide-7 h1,.late-slide-8 h1,.late-slide-9 h1{font-size:30px!important;margin-bottom:3px!important}
-  .late-slide-8 .beginner-path-v9{padding:4px 6px!important}
-  .late-slide-8 .beginner-path-v9 p{font-size:14px!important}
-  .late-slide-8 .outward-v9 .find-coverage-callout-v53 .live-answer-v52{height:30px!important;min-height:30px!important}
-  .late-slide-7 .live-answer-v52,.late-slide-9 .live-answer-v52{height:34px!important;min-height:34px!important}
+.slide::-webkit-scrollbar-track{
+  background:transparent;
 }
 
 </style>
