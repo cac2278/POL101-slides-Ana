@@ -3629,6 +3629,82 @@ a.vantage-source-v10:focus{
   line-height:1.12!important;
 }
 
+
+/* POL 101 V46 — Slide 9 library news databases */
+.news-databases-v46 .news-db-intro-v46{
+  font-size:23px!important;
+  margin:4px 0 14px!important;
+}
+.news-db-grid-v46{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:14px!important;
+}
+.news-db-card-v46{
+  display:grid!important;
+  grid-template-columns:66px 1fr!important;
+  align-items:center!important;
+  gap:12px!important;
+  padding:16px 18px!important;
+  border:2px solid rgba(111,66,165,.22)!important;
+  border-radius:16px!important;
+  background:#fff!important;
+}
+.news-db-icon-v46{
+  font-size:40px!important;
+  text-align:center!important;
+}
+.news-db-card-v46 strong{
+  display:block!important;
+  font-size:26px!important;
+  line-height:1.08!important;
+}
+.news-db-card-v46 b{
+  display:block!important;
+  font-size:15px!important;
+  letter-spacing:.05em!important;
+  margin:4px 0!important;
+}
+.news-db-card-v46 p{
+  font-size:20px!important;
+  line-height:1.16!important;
+  margin:0!important;
+}
+.news-db-reminder-v46{
+  margin-top:14px!important;
+  padding:11px 14px!important;
+  font-size:20px!important;
+  line-height:1.15!important;
+  border-left:5px solid var(--gold)!important;
+}
+
+
+/* POL 101 V47 — verified UWW library access links on Slide 9 */
+.news-databases-v46 .db-live-link-v47{
+  color:inherit!important;
+  text-decoration:underline!important;
+  text-decoration-thickness:2px!important;
+  text-underline-offset:4px!important;
+}
+.news-databases-v46 .db-live-link-v47:hover,
+.news-databases-v46 .db-live-link-v47:focus{
+  color:var(--purple)!important;
+}
+.news-databases-v46 .db-link-note-v47{
+  font-weight:800!important;
+}
+
+
+/* POL 101 V49 — direct database links supplied by librarian */
+.news-databases-v46 .all-news-link-v49{
+  display:inline-block!important;
+  margin-left:10px!important;
+  font-weight:800!important;
+  color:inherit!important;
+  text-decoration:underline!important;
+  text-underline-offset:3px!important;
+}
+
 </style>
 </head>
 <body>
@@ -3763,8 +3839,35 @@ a.vantage-source-v10:focus{
   </div>
 </section>
 
+<section class="slide late-slide late-slide-10 news-databases-v46">
+  <div class="eyebrow"><span>FIND NEWS · UWW LIBRARY</span><span class="header-slide-number">4 / 10</span></div>
+  <h1>Start with a library news database.</h1>
+  <p class="news-db-intro-v46">A more curated starting pool than an unrestricted web search. <span class="db-link-note-v47">Click a database name → open that database through UWW.</span></p>
+
+  <div class="news-db-grid-v46">
+    <div class="news-db-card-v46">
+      <span class="news-db-icon-v46" aria-hidden="true">🌐</span>
+      <div><strong><a class="db-live-link-v47" href="https://myapps.uww.edu/app/uww_ezproxyuww_2/exksqm6wko5afWL0B697/sso/saml" target="_blank" rel="noopener">Access World News <span aria-hidden="true">↗</span></a></strong><b>GENERAL NEWS</b><p>Search coverage across many publications.</p></div>
+    </div>
+    <div class="news-db-card-v46">
+      <span class="news-db-icon-v46" aria-hidden="true">🗣</span>
+      <div><strong><a class="db-live-link-v47" href="https://infoweb-newsbank-com.libproxy.uww.edu/apps/news/browse-multi?p=AWNB&t=favorite%3AEthnicSources%21Ethnic%20Sources" target="_blank" rel="noopener">Ethnic Sources <span aria-hidden="true">↗</span></a></strong><b>BROADER VOICES</b><p>Ethnic and minority presses, 1982–present.</p></div>
+    </div>
+    <div class="news-db-card-v46">
+      <span class="news-db-icon-v46" aria-hidden="true">📰</span>
+      <div><strong><a class="db-live-link-v47" href="https://go-gale-com.libproxy.uww.edu/ps/start.do?p=STND&u=h2o" target="_blank" rel="noopener">Gale OneFile: News <span aria-hidden="true">↗</span></a></strong><b>GENERAL NEWS</b><p>Full-text newspapers; search by headline, date, publication, or section.</p></div>
+    </div>
+    <div class="news-db-card-v46">
+      <span class="news-db-icon-v46" aria-hidden="true">⚖</span>
+      <div><strong><a class="db-live-link-v47" href="https://go-gale-com.libproxy.uww.edu/ps/start.do?p=LT&u=h2o" target="_blank" rel="noopener">LegalTrac <span aria-hidden="true">↗</span></a></strong><b>POLICY + LAW</b><p>Legal newspapers plus laws, regulations, cases, and legal scholarship.</p></div>
+    </div>
+  </div>
+
+  <div class="news-db-reminder-v46"><strong>DATABASE ≠ AUTOMATICALLY TRUE.</strong> Still SIFT individual articles and claims. <a class="all-news-link-v49" href="https://libguides.uww.edu/az/databases?t=19166" target="_blank" rel="noopener">See all UWW newspaper databases ↗</a></div>
+</section>
+
 <section class="slide">
-  <div class="eyebrow"><span>NEWS LITERACY · START HERE</span><span class="header-slide-number">4 / 10</span></div>
+  <div class="eyebrow"><span>NEWS LITERACY · START HERE</span><span class="header-slide-number">5 / 10</span></div>
   <h1>You find an article about your policy. Can you use it?</h1>
 
   <div class="unknown-source-v9">
@@ -3792,7 +3895,7 @@ a.vantage-source-v10:focus{
 </section>
 
 <section class="slide late-slide late-slide-6">
-  <div class="eyebrow"><span>NEWS LITERACY · SIFT</span><span class="header-slide-number">5 / 10</span></div>
+  <div class="eyebrow"><span>NEWS LITERACY · SIFT</span><span class="header-slide-number">6 / 10</span></div>
   <h1>Meet SIFT: four moves for checking information.</h1>
 
   <div class="sift-overview-v26">
@@ -3820,7 +3923,7 @@ a.vantage-source-v10:focus{
 </section>
 
 <section class="slide late-slide late-slide-7">
-  <div class="eyebrow"><span>NEWS LITERACY · FIRST TWO MOVES</span><span class="header-slide-number">6 / 10</span></div>
+  <div class="eyebrow"><span>NEWS LITERACY · FIRST TWO MOVES</span><span class="header-slide-number">7 / 10</span></div>
   <h1>First: stop. Then investigate who is behind it.</h1>
 
   <div class="si-beginner-v9">
@@ -3853,7 +3956,7 @@ a.vantage-source-v10:focus{
 </section>
 
 <section class="slide late-slide late-slide-8">
-  <div class="eyebrow"><span>NEWS LITERACY · NEXT TWO MOVES</span><span class="header-slide-number">7 / 10</span></div>
+  <div class="eyebrow"><span>NEWS LITERACY · NEXT TWO MOVES</span><span class="header-slide-number">8 / 10</span></div>
   <h1>Then look outward—and find where the information started.</h1>
 
   <div class="ft-beginner-v9">
@@ -3885,7 +3988,7 @@ a.vantage-source-v10:focus{
 </section>
 
 <section class="slide late-slide late-slide-9">
-  <div class="eyebrow"><span>NEWS LITERACY · NOW YOU KNOW SIFT</span><span class="header-slide-number">8 / 10</span></div>
+  <div class="eyebrow"><span>NEWS LITERACY · NOW YOU KNOW SIFT</span><span class="header-slide-number">9 / 10</span></div>
   <h1>Use SIFT as you research.</h1>
   <div class="sift-recap-cue-v26">You already know the four moves. Now use them whenever a source or claim needs checking.</div>
 
@@ -3909,28 +4012,6 @@ a.vantage-source-v10:focus{
   <div class="assignment-payoff-v9">
     <div><b>F</b><span>helps you find <strong>different news coverage</strong></span></div>
     <div><b>T</b><span>can help you find <strong>the actual policy</strong></span></div>
-  </div>
-</section>
-
-<section class="slide late-slide late-slide-10">
-  <div class="eyebrow"><span>GO DEEPER · RESEARCH DATABASES</span><span class="header-slide-number">9 / 10</span></div>
-  <h1>News shows you the debate. Research helps you understand it.</h1>
-  <div class="database-step-v22">
-    <div class="database-why-v22">
-      <small>AFTER YOU EXPLORE + CHECK THE NEWS</small>
-      <strong>Go deeper than coverage.</strong>
-      <p>Look for research that explains the arguments, evidence, and political ideas underneath the issue.</p>
-    </div>
-    <div class="database-source-v22">
-      <small>START HERE</small>
-      <a class="database-title-v22" href="https://libguides.uww.edu/c.php?g=547948&p=3760206" target="_blank" rel="noopener">Political Science Complete ↗</a>
-      <p>Use scholarship to identify <strong>arguments, evidence, and the political ideas underneath them.</strong></p>
-    </div>
-  </div>
-  <div class="database-shift-v22">
-    <div><small>NEWS</small><strong>What is being reported?</strong></div>
-    <b>→</b>
-    <div><small>RESEARCH</small><strong>What helps explain the disagreement?</strong></div>
   </div>
 </section>
 
